@@ -35,12 +35,13 @@ body{
 }
 .radio-container{
     border: solid black;
+    font-size: 15px;
 }
 .radio-text{
     display: flex;
     justify-content: center;
-    margin-top: 34%;
-    font-size: 15px;
+    margin-top: 12%;
+    margin-bottom: 5%;
 }
 .circle{
     height: 5px;
@@ -58,11 +59,17 @@ body{
     to{background-color:#660505;}
     to{background-color:#000000;}
 }
+hr{
+    width: 30px;
+}
+.radio{
+    margin-top: 10%;
+}
 img{
-    width: 480px;
+    width: 450px;
 }
 .footer{
-    margin-top: 50px;
+    margin-top: 15%;
     display: flex;
     justify-content: space-evenly;
 }
@@ -86,7 +93,7 @@ a{
         font-size: 25px;
         font-weight: 500;
     }
-    .radio-text{
+    .radio-container{
         font-size: 12px;
     }
 }
