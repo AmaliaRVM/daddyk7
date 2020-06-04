@@ -62,8 +62,12 @@ body{
 hr{
     width: 30px;
 }
+#contact{
+    font-size: 12px;
+}
 .radio{
     margin-top: 10%;
+    margin-bottom: 7%;
 }
 img{
     width: 450px;
