@@ -1,75 +1,73 @@
 body{
-    background-color:  #172733;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
-    line-height: 24px;
-    color: #EE6262;
-}
-a{
-    text-decoration: none;
-    color: #F4B0BC;
-}
-.main-container{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 5%;
-
-}
-.media-container{
-    display: flex;
     font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: #EE6262;
+    line-height: 1.5;
+
+    background-color: #172733;
+    margin: 90px auto 40px auto;
+    width: 1128px;
 }
-.media-container a{
-    margin-right: 40px;
-}
-.media-container p{
-    margin: 0;
-    color: #F4B0BC
-}
-.title-container{
-    margin-bottom: 30%;
-}
-.title-container h1{
-    margin: 0;
-    font-size: 50px;
-}
-.title-container h6{
-    color: #F4B0BC;
-}
-.radio-container{
+
+header{
     display: flex;
     justify-content: space-between;
 }
-.radio-player{
-    margin-right: 10%;
+
+h1 {
+    margin: 5px 0 0 0;
+    font-size: 40px;
+    font-weight: 600;
 }
-footer{
-    display: block;
-    text-align: center;
-    margin-top: 10%;
+
+a{
+    font-size: 21px;
+    color: #F4B0BC;
+    text-decoration: none;
+    margin-left: 24px;
+    transition: font-size 0.5s;
 }
-footer h6{
+
+a:hover {
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.logo-container p{
     color: #F4B0BC;
 }
-footer p{
-    font-size: 14px;
+
+p {
+    margin: 0;
+}
+section{
+    margin: 120px 0 0 0;
+    display: flex;
+    justify-content: center;
 }
 
+.radio-player{
+    width: 300px;
+}
 
-@media screen and (max-width: 780px) {
-    .main-container{
-        display: block;
-    }
-    .media-container{
-        display: inline-grid;
-    }
-    .radio-container{
-        display: block;
-        margin-bottom: 15%;
-    }
-    footer{
-        margin-top: 20%;
-        display: block;
-        text-align: center;
-    }
+.radio-player p{
+    margin: 5px;
+}
+
+hr{
+    border-color: #F04B4B;
+}
+
+footer {
+    margin: 120px 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-container{
+    font-size: 14px;
+    width: 300px;
+}
+.footer-container a {
+    font-size: 14px;
 }
