@@ -136,13 +136,26 @@ footer {
         padding: 10px;
     }
 
+    p{
+        padding-bottom: 0;
+    }
+
     header{
         width: 100%;
         display: block;
     }
 
+    .name-container p{
+        text-align: center;
+        font-size: 14px;
+    }
+
     h1{
         font-size: 50px;
+    }
+
+    img{
+        width: 340px;
     }
 
     section{
@@ -156,7 +169,7 @@ footer {
     .main-links{
         display: block;
         text-align: left;
-        margin-bottom: 80px;
+        margin-bottom: 45px;
     }
 
     .main-links a{
@@ -164,10 +177,10 @@ footer {
     }
 
     .radio-player{
-        width: 50%;
+        width: 95%;
         display: block;
         text-align: left;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
 
     .radio-player p{
@@ -179,6 +192,6 @@ footer {
     }
 
     .footer-container{
-        width: 50%;
+        width: 95%;
     }
 }
