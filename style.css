@@ -1,197 +1,97 @@
-/* Variables */
-
-:root{
-    --main-theme-font: 'Press Start 2P', cursive;
-    --main-type-size: 16px;
-    --width-page: 1200px;
-    --margin-page: 0 auto;
-}
-
-*{
-    box-sizing: border-box;
-    font-size: var(--main-type-size);
-}
-
-html,
 body{
-    font-family: var(--main-theme-font);
-	line-height: 1.80;
-	
-	background-color: #cf75d8;
-    background-image: linear-gradient(180deg, #2971D7,#FFCBA0, rgb(255, 255, 255, 0));
-	color: #000000;
 
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    height: 100%;
+    font-size: 32px;
+    font-family: 'Trispace', sans-serif;
+    line-height: 1.25;
+    
+    background-image: url(./assets/img/daddyk7-trans-logocut.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 600px auto;
+
+    margin: 0px auto 10px auto;
+    width: 1200px;
 }
 
-p {
-    margin: 0;
-    padding-bottom: 10px;
-}
+header,section{
+    margin: 5px auto 100px auto;
+    padding: 30px;
 
-a{
-    color: #000000;
-    text-decoration: none;
-    padding-bottom: 10px;
-}
-
-a:hover {
-    color: #2971D7;
-}
-
-/* Utility */
-
-.grid{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-}
-
-hr{
-    border-color: #FFCBA0;
-}
-
-/* Header style */
-
-h1 {
-    margin: 5px 0 0 0;
-    font-size: 60px;
-    font-weight: 600;
-}
-
-img{
-    width: 400px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
 }
 
 header{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    width: var(--width-page);
-    margin: var(--margin-page);
+    margin: 300px auto 250px auto;
+    text-align: center;
+
+    background-color:#ffffff;
+    background-image: linear-gradient(180deg, #F9A967, rgb(255, 255, 255, 0)); 
 }
 
-.name-container{
-    margin-top: 40px;
+header h1{
+    font-size: 5em;
+    margin: 0;
+    padding: 5px;
+
+    color: #AE3FB8;
+    background-image: linear-gradient(45deg, #EE6262, #AE3FB8 );
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
 }
 
-.name-container p{
-    color: #FFCBA0;
-}
-
-/* Section style */
+header h5{
+    color: #172733;
+} 
 
 section{
-    width: var(--width-page);
-    margin: var(--margin-page);
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.main-links{
-    width: 90%;
-}
-
-.main-links a{
+a{
     display: block;
+    color: #ffffff;
+    text-decoration: none;
 }
 
-.radio-player{
-    width: 90%;
+section.contact {
+    background-color:#EE6262;
+    background-image: linear-gradient(180deg,#ffffff,  rgb(255, 255, 255, 0));
+}
+
+section.radio-player {
+    display: block;
     text-align: center;
+
+    background-color:#cf75d8;
+    background-image: linear-gradient(180deg, #EE6262, rgb(255, 255, 255, 0));
+    color: #ffffff;
 }
 
-.program{
-    text-align: right;
+.the-program{
+    width: 80%;
+    margin: 0 auto;
 }
 
-/* Footer style */
-
-footer {
-    width: var(--width-page);
-    margin: var(--margin-page);
+.the-player{
+    margin-top: 10%;
 }
 
-.footer-container{
-    margin-top: 100px;
-    font-size: 11px;
-    font-family: 'Trispace', sans-serif;
+.footer-container p{
+    font-size: 16px;
     color: #172733;
 }
 
-.footer-container a {
-    font-size: 11px;
+.footer-container a{
+    display: inline-block;
+    color: #172733;
 }
 
-.footer-container p {
-    font-size: 11px;
-}
-
-/* media query */
-
-@media only screen and (max-width: 1024px) {
-
-    body{
-        padding: 10px;
-    }
-
-    p{
-        padding-bottom: 0;
-    }
-
-    header{
-        width: 100%;
-        display: block;
-    }
-
-    .name-container p{
-        text-align: center;
-        font-size: 14px;
-    }
-
-    h1{
-        font-size: 50px;
-    }
-
-    img{
-        width: 340px;
-    }
-
-    section{
-        width: 100%;
-    }
-
-    .link-section{
-        display: block;
-    }
-
-    .main-links{
-        display: block;
-        text-align: left;
-        margin-bottom: 45px;
-    }
-
-    .main-links a{
-        font-size: 12px;
-    }
-
-    .radio-player{
-        width: 95%;
-        display: block;
-        text-align: left;
-        margin-bottom: 10px;
-    }
-
-    .radio-player p{
-        font-size: 12px;
-    }
-
-    footer{
-        width: 100%;
-    }
-
-    .footer-container{
-        width: 95%;
-    }
-}
