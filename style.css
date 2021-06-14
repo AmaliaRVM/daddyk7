@@ -1,6 +1,7 @@
 body{
 
-    font-size: 32px;
+    /* font-size: 32px; */
+    font-size: 16px;
     font-family: 'Trispace', sans-serif;
     line-height: 1.25;
     
@@ -11,7 +12,8 @@ body{
     background-size: 600px auto; */
 
     margin: 0px auto 10px auto;
-    width: 1200px;
+    /* width: 1200px; */
+    width: 400px;
 }
 
 header,section{
@@ -24,7 +26,8 @@ header,section{
 }
 
 header{
-    margin: 300px auto 250px auto;
+    /* margin: 300px auto 250px auto; */
+    margin: 58px auto 0px auto;
     text-align: center;
 
     background-color:#ffffff;
@@ -50,7 +53,7 @@ header h5{
 } 
 
 section{
-    min-height: 80vh;
+    /* min-height: 80vh; */
     text-align: center;
 }
 
@@ -61,7 +64,8 @@ a{
 }
 
 img{
-    width: 500px;
+    /* width: 500px; */
+    width: 300px;
 }
 
 section.contact {
