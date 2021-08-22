@@ -80,6 +80,7 @@ section.radio-player {
     background-color:#cf75d8;
     background-image: linear-gradient(180deg, #EE6262, rgb(255, 255, 255, 0));
     color: #ffffff;
+    min-height: 0;
 }
 
 .the-program{
@@ -89,6 +90,8 @@ section.radio-player {
 
 .the-player{
     margin-top: 10%;
+    padding: 14px;
+    font-size: 40px;
 }
 
 .footer-container p{
